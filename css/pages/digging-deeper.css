@@ -1,0 +1,15 @@
+#content__digging_deeper ul li{
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 720px){
+    #content__about{
+        flex-wrap: wrap;
+    }
+
+    #content__about p{
+        margin-top: 30px;
+        word-break: break-all;
+        text-align: left;
+    }
+}

@@ -1,0 +1,32 @@
+#content__about{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#content__about img{
+    width: 100%;
+    max-width: 350px;
+    margin-right: 30px;
+}
+
+#content__about p{
+    margin: 0;
+    padding: 0;
+    font-size: 19px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+
+@media screen and (max-width: 720px){
+    #content__about{
+        flex-wrap: wrap;
+    }
+
+    #content__about p{
+        margin-top: 30px;
+        word-break: break-all;
+        text-align: left;
+    }
+}
